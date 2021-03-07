@@ -1,10 +1,12 @@
 import time
+import saludo
 
 lista = []
 nueva_lista = []
 longitudes = []
 lista_cuadrada = []
 
+saludo.greeting()
 time.sleep(2)
 print('\nPor favor introduce los numeros a sumar')
 time.sleep(2)
